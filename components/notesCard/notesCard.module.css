@@ -1,0 +1,20 @@
+.card{
+    position:relative;
+    overflow:unset;
+}
+.selectedCard{
+    background-color:#66b0ff;
+    border:1px solid #0060dd;
+}
+.checkbox{
+    position:absolute;
+    top:-18px;
+    left:-18px;
+    display:none;
+}
+.checkboxSelected{
+    display:block;
+}
+.checkbox svg path{
+    fill:#333;
+}
